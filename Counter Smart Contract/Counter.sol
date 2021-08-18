@@ -11,7 +11,7 @@ contract Counter{
 
 
     // Declaring getCount function to get the current value of count
-    function getCount() view public returns(uint) {
+    function getCount() view public returns(uint) { // Using view to view the current variable count
         return count;
     }
     
